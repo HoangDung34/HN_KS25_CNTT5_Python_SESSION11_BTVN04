@@ -80,7 +80,6 @@ while True:
                 print("Không tìm thấy sản phẩm cần bán")
         case 3:
             product_id = input("Nhập mã sản phẩm cần nhập thêm: ").strip().upper()
-
             found = False
 
             for product in product_list:
